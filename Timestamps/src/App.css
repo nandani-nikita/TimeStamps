@@ -1,0 +1,37 @@
+.App {
+    margin-top: 80px;
+    border: 3px solid brown;
+    border-radius: 5px;
+    text-align: center;
+    background-color: honeydew;
+}
+
+.App-title{
+    color: green;
+}
+
+.time, label {
+    color: rgb(146, 19, 87);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+input {
+    color: rgb(182, 32, 182);
+    border-radius: 3px;
+}
+
+button {
+    font-size: large;
+
+}
+
+span, label {
+    color: forestgreen;
+}
+
+hr {
+    height: 5px;
+    background-color: indianred;
+}
