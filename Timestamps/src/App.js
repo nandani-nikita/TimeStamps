@@ -41,7 +41,7 @@ class App extends Component {
         <span>Days/Hours/Minutes Difference = </span>{this.state.total_diff}
         <br />
         <br />
-        Note: Minus (-) means the second time stamp provided was greater than the first one.
+        {/* Note: Minus (-) means the second time stamp provided was greater than the first one. */}
       </div>
     }
 
@@ -52,7 +52,7 @@ class App extends Component {
         </header>
         <MyForm />
         
-        <p className="App-data">{times}</p>
+        <div className="App-data">{times}</div>
         <br />
       </div>
     );
