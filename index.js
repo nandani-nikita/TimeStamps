@@ -41,7 +41,7 @@ app.post('/store-data', (req, res) => {
 
 // Function to calculate time difference in seconds as well as complete days-time difference
 function timeDifference(date1, date2) {
-  var difference = date1.getTime() - date2.getTime();
+  var difference = (date1.getTime() > date2.getTime()) ? (date1.getTime() - date2.getTime()) : (date2.getTime() - date1.getTime());
   // console.log(difference);
   t_diff = difference / 1000;
   var daysDifference = Math.floor(difference / 1000 / 60 / 60 / 24);
